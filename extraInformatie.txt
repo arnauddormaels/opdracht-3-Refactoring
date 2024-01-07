@@ -1,0 +1,30 @@
+evalutie:
+-synch asynch werken
+-aanpassingen in het algoritme
+-mongoDb maken
+
+
+
+
+//List<XYZ> testset=new List<XYZ>();                       
+Dictionary<int,XYZ> testset = new Dictionary<int,XYZ>();              //ipv int => Boom()? gebruiken
+
+
+Vaag?? 
+Gegevens worden gedeeld. niet splitsen in threads als gegevens niet mogen gedeeld worden,
+Als aap in een boom springt krijgt elke aap een thread. De route van elke aap kan je niet in een thread steken. Omdat data steeds wordt gedeeld?
+
+
+Ook iets moeten doen met datastructren (vb van list naar dictionary). tip: Er is altijd maar 1 dichste boom
+
+MongoDB geen excacte kopie maken van wat dat er is 
+
+
+-Vragen
+wat heb je async gemaakt en wrm
+wat heb je gedaan om het sneller te maken , structuren veranderd/algorythme?
+heb je code opgekuist 
+toon de mongoDB
+demo geven
+
+veel klassen hebben gedeelde verantwoordelijkheid. Lezen en schrijven zitten door elkaar. 

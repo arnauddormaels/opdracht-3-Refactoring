@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\MongoDBManager\\MongoDBManager.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\EscapeFromTheWoodsToRefactor\\EscapeFromTheWoodsToRefactor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\EscapeFromTheWoodsToRefactor\\EscapeFromTheWoodsToRefactor.csproj",
+        "projectName": "EscapeFromTheWoods",
+        "projectPath": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\EscapeFromTheWoodsToRefactor\\EscapeFromTheWoodsToRefactor.csproj",
+        "packagesPath": "C:\\Users\\arnau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\EscapeFromTheWoodsToRefactor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arnau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\MongoDBManager\\MongoDBManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\MongoDBManager\\MongoDBManager.csproj",
+        "projectName": "MongoDBManager",
+        "projectPath": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\MongoDBManager\\MongoDBManager.csproj",
+        "packagesPath": "C:\\Users\\arnau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\MongoDBManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arnau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\EscapeFromTheWoodsToRefactor\\EscapeFromTheWoodsToRefactor.csproj": {
+                "projectPath": "C:\\Users\\arnau\\OneDrive\\Documenten\\school\\graduaat 3e semester\\Programmeren specialisatie\\opdracht 3 Refactoring\\EscapeFromTheWoodsToRefactor\\EscapeFromTheWoodsToRefactor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
